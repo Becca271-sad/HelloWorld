@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<title>Weight Converter</title>
+
+<head>
+<link rel="stylesheet" href="WeightConverter.css">
+</head>
+
+
+<body>
+    <div class="menu">
+    <ul>
+        <li class ="active"><a href="Home.html"> Home</a></li>
+        
+        <li class ="active"><a href="Search.html"> Search </a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href ="SearchRecipes.html"> Search Recipes </a></li>
+                    <li><a href ="Recipes.html"> Recipes</a></li>     
+                    <li><a href ="Cookbook.html"> Cookbook</a></li>   
+                    <li><a href ="WeightConverter.html"> Weight Converter</a></li>    
+                    <li><a href ="GroceryList.html"> Grocery List</a></li>       
+                </ul>
+            </div>
+        </li>
+        
+        <li class ="active"><a href="AboutUs.html"> About us </a> </li>
+        
+        <li class ="active"><a href="#"> Login </a>
+         <div class="sub-menu">
+                <ul>
+                    <li><a href ="Login.html">Login </a></li>
+                    <li><a href ="Profile.html">Profile</a></li>      
+                    <li><a href ="Cookbook.html">Cookbook</a></li>    
+                    <li><a href ="GroceryList.html">Grocery List</a></li>  
+                    <li><a href ="Upload.html">Upload</a></li>      
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>   
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h1 class="display-4 text-center mb-3">Weight Converter</h1>
+      <form>
+        <div class="form-group">
+          <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds...">
+        </div>
+      </form>
+      <div id="output">
+        <div class="card card-primary mb-2">
+          <div class="card-block">
+            <h4>Grams:</h4>
+            <div id="gramsOutput"></div>
+          </div>
+        </div>
+
+        <div class="card card-success mb-2">
+          <div class="card-block">
+            <h4>Kilograms:</h4>
+            <div id="kgOutput"></div>
+          </div>
+        </div>
+
+        <div class="card card-danger mb-2">
+          <div class="card-block">
+            <h4>Ounces:</h4>
+            <div id="ozOutput"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>IMD 3006A Software Development, Final Project, Jessie Nguyen and Rebecca Yee</p>
+</div>
+
+<script type="text/javascript" src="WeightConverter.js"></script>
+</body>
+</html>
